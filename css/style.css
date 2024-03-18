@@ -150,6 +150,21 @@ button {
     min-height: 100vh;
     margin-top: 100px;
 }
+.top__title{
+    padding-top: 150px;
+    font-weight: 700;
+    font-size: 72px;
+    color: #ffffff;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+.top__text{
+    color: #ffffff;
+    font-size: 28px;
+    text-align: center;
+}
 
 
 
