@@ -165,7 +165,22 @@ button {
     font-size: 28px;
     text-align: center;
 }
+.scroll {
+    width: 70px;
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    z-index: 1;
+    padding-bottom: 20px;
+    text-align: center;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+.scroll-img {
+    width: 80px;
+}
 
 
 .section-padding{
