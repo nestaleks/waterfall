@@ -261,6 +261,18 @@ button {
     display: flex;
     justify-content: center;
 }
+/*******ПРОЕКТЫ*******/
+.project__menu-link{
+    color: #424467;
+}
+.project{
+    padding: 40px 0;
+}
+.project__top-img{
+    max-width: 100%;
+}
+
+
 
 
 
@@ -413,6 +425,9 @@ button {
 }
 
 @media(max-width: 480px) {
+    .section-title{
+        font-size: 30px;
+    }
     .header__logo,
     .footer__logo{
         display: none;
