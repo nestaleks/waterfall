@@ -110,6 +110,7 @@ button {
 	position: relative;
 	font-size: 20px;
 	text-decoration: none;
+    color: #ffffff;
 }
 
 .menu__link::before {
