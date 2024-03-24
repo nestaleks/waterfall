@@ -49,7 +49,7 @@ $(document).ready(function() {
 		preloader: false,
 		fixedContentPos: false
 	});
-	$('.gallery__items').magnificPopup({
+	$('.gallery__item').magnificPopup({
 		delegate: 'a',
 		type: 'image',
 		tLoading: 'Loading image #%curr%...',
