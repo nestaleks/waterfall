@@ -9,53 +9,53 @@
 }
     
 .right {
-    background-image: url(../images/hog/bg_right.gif);
+    background-image: url(../images/caribean/bg_right.gif);
     background-repeat:repeat-y;
 }
     
 .left {
-    background-image: url(../images/hog/bg_right.gif);
+    background-image: url(../images/caribean/bg_right.gif);
     background-repeat:repeat-y;
     background-position:right;
 }
     
 .left_td {
     height:100%;
-    background-image: url(../images/hog/left1.gif);
+    background-image: url(../images/caribean/left1.gif);
     background-repeat:no-repeat;
     background-position:top;
-    background-color: #fbff86;
+    background-color: #92f3ff;
 }
     
 .left_td_2 {
     height:100%;
-    background-image: url(../images/hog/left_td_2.jpg);
+    background-image: url(../images/caribean/left_td_2.jpg);
     background-repeat:no-repeat;
     background-position:top;
-    background-color: #fbff86;
+    background-color: #92f3ff;
 }
     
 .right_td {
-    background-image: url(../images/hog/right.jpg);
+    background-image: url(../images/caribean/right.jpg);
     background-repeat:no-repeat;
     background-position:top left;
-    background-color: #fbff86;
+    background-color: #92f3ff;
 }
     
 .img_left {
-    background-image: url(../images/hog/bg_left1.gif);
+    background-image: url(../images/caribean/bg_left1.gif);
     background-repeat:repeat-y;
     background-position:top;
 }
     
 .img_right {
-    background-image: url(../images/hog/bg_right2.gif);
+    background-image: url(../images/caribean/bg_right2.gif);
     background-repeat:repeat-y;
     background-position:top;
 }
     
 .img_bot {
-    background-image: url(../images/hog/img_both.gif);
+    background-image: url(../images/caribean/img_both.gif);
     background-repeat:no-repeat;
     background-position:top left;
     height:33px;
@@ -64,7 +64,7 @@
 }
     
 .text {
-    background-image: url(../images/hog/bg_text.gif);
+    background-image: url(../images/caribean/bg_text.gif);
     background-repeat:repeat-y;
     height:100%;
     font-size:12px;
