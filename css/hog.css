@@ -14,7 +14,7 @@
 }
     
 .left {
-    background-image: url(../images/hog/bg_left.gif);
+    background-image: url(../images/hog/bg_right.gif);
     background-repeat:repeat-y;
     background-position:right;
 }
