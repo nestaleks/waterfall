@@ -99,12 +99,10 @@
 .buy_button{
     opacity: 0;
 }
-.row-1{
-    margin-bottom: -2px;
-}
+
 img[scalable]
 {
   cursor: pointer;
   transition-property: max-width, max-height, left, top;
-  transition-duration: 0.3s;
+  transition-duration: 0.7s;
 }
