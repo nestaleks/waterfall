@@ -1,0 +1,108 @@
+.table {
+    height:100%;
+    font-size: 0;
+}
+
+    
+.table-text {
+    margin-top:75px;
+}
+    
+.right {
+    background-image: url(../images/red_hat2/bg_right.gif);
+    background-repeat:repeat-y;
+}
+    
+.left {
+    background-image: url(../images/red_hat2/bg_right.gif);
+    background-repeat:repeat-y;
+    background-position:right;
+}
+    
+.left_td {
+    height:100%;
+    background-image: url(../images/red_hat2/left1.gif);
+    background-repeat:no-repeat;
+    background-position:top;
+    background-color: #FFE8B6;
+}
+    
+.left_td_2 {
+    height:100%;
+    background-image: url(../images/red_hat2/left_td_2.jpg);
+    background-repeat:no-repeat;
+    background-position:top;
+    background-color: #FFE8B6;
+}
+    
+.right_td {
+    background-image: url(../images/red_hat2/right.jpg);
+    background-repeat:no-repeat;
+    background-position:top left;
+    background-color: #FFE8B6;
+}
+    
+.img_left {
+    background-image: url(../images/red_hat2/bg_left1.gif);
+    background-repeat:repeat-y;
+    background-position:top;
+}
+    
+.img_right {
+    background-image: url(../images/red_hat2/bg_right2.gif);
+    background-repeat:repeat-y;
+    background-position:top;
+}
+    
+.img_bot {
+    background-image: url(../images/red_hat2/img_bot.gif);
+    background-repeat:no-repeat;
+    background-position:top left;
+    height:33px;
+    padding-top:7px;
+    padding-left:100px;
+}
+    
+.text {
+    background-image: url(../images/red_hat2/bg_text.gif);
+    background-repeat:repeat-y;
+    height:100%;
+    font-size:12px;
+    padding-top:0px;
+    padding-left:30px;
+    padding-right:25px;
+}
+    
+.game {
+    padding-top:0px;
+    padding-left:40px;
+}
+.simpleInput
+{
+	background-color: #FFFFFF;
+	border-color: #cad2da;
+	border-style: solid;
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.simpleSelect
+{
+	border-color: #cad2da;
+	border-style: solid;
+	background-color: #FFFFFF;
+	font-weight:bold;
+	font-family:Tahoma;
+	font-size: 11px;
+}
+.buy_button{
+    opacity: 0;
+}
+
+img[scalable]
+{
+  cursor: pointer;
+  transition-property: max-width, max-height, left, top;
+  transition-duration: 0.3s;
+}
