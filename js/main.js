@@ -49,7 +49,7 @@ $(document).ready(function() {
 		preloader: false,
 		fixedContentPos: false
 	});
-	$('.gallery__item').magnificPopup({
+	$('.gallery_img').magnificPopup({
 		delegate: 'a',
 		type: 'image',
 		tLoading: 'Loading image #%curr%...',
@@ -67,3 +67,12 @@ $(document).ready(function() {
 		}
 	});
 });
+
+
+
+
+
+
+
+
+

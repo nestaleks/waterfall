@@ -298,6 +298,8 @@ button {
     object-fit: cover;
 }
 
+
+
 /******* АДАПТИВ*******/
 @media(max-width: 1440px) {
     .projects__img{

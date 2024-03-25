@@ -1,43 +1,11 @@
-.project{
-    display: flex;
-    margin: 0 auto;
-}
-.project__inner{
-    display: flex;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .table {
     height:100%;
+    font-size: 0;
 }
+
     
 .table-text {
-    margin-top:100px;
+    margin-top:75px;
 }
     
 .right {
@@ -72,7 +40,6 @@
     background-repeat:no-repeat;
     background-position:top left;
     background-color: #fbff86;
-    padding-bottom: 5cqb;
 }
     
 .img_left {
@@ -115,7 +82,6 @@
 	background-color: #FFFFFF;
 	border-color: #cad2da;
 	border-style: solid;
-	border-width: 1px;
 	font-family: Tahoma;
 	font-size: 11px;
 	font-weight: bold;
@@ -125,9 +91,14 @@
 {
 	border-color: #cad2da;
 	border-style: solid;
-	border-width: 1px;
 	background-color: #FFFFFF;
 	font-weight:bold;
 	font-family:Tahoma;
 	font-size: 11px;
+}
+.buy_button{
+    opacity: 0;
+}
+.row-1{
+    margin-bottom: -2px;
 }

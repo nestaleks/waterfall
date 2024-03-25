@@ -17,6 +17,7 @@ time, mark, audio, video {
     font-size:100%;
     vertical-align:baseline;
     background:transparent;
+    border: 0;
 }
 
 body {
@@ -48,6 +49,7 @@ a {
     font-size:100%;
     vertical-align:baseline;
     background:transparent;
+    border: none;
 }
 
 /* change colours to suit your needs */
@@ -74,7 +76,7 @@ abbr[title], dfn[title] {
     cursor:help;
 }
 
-table {
+table, tr, td {
     border-collapse:collapse;
     border-spacing:0;
 }
