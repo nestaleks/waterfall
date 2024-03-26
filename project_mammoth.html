@@ -10,6 +10,7 @@
   <link href="./css/reset.css" rel="stylesheet">
   <link href="./css/slick.css" rel="stylesheet">
   <link href="./css/magnific-popup.css" rel="stylesheet">
+  <link href="./css/mammoth.css" rel="stylesheet">
   <link href="./css/style.css" rel="stylesheet">
 </head>
 <body>
@@ -56,43 +57,75 @@
       </div>
     </header>
     <main class="main">
-      <button onclick="topFunction()" id="upBtn" title="Повернутися нагору">
-      <img src="./images/upbtn.svg" alt=""></button>
-      <section class="project">
-        <div class="container">
-          <div class="project__inner">
-            <img class="project__top-img" src="./images/mammoth_top.jpg" alt="">
-            <h2 class="section-title">Мамонтёнок</h2>
-            <p class="project__text">«Мамонтенок» - новая развлекательная интерактивная история от компании Waterfall. На этот раз маленьким игрокам предстоит познакомиться с необычным персонажем -  мамонтенком, и его друзьями. Тима и Варя проводят лето с родителями в деревне. Им невероятно повезло: в пещере, куда они залезли без спросу, они находят глыбу льда с настоящим мамонтом, замороженным внутри! Непоседливые ребята, конечно, придумали, как эту глыбу растопить – и случилось настоящее чудо: мамонтенок оказался живой! Еще и очень умный и понятливый)) Теперь у детей появился новый друг и помощник, с которым можно проказничать вволю, играть и веселиться.</p>
-            <p class="project__text">Эта интерактивная игра рассчитана на детскую аудиторию, но увлечь она может и взрослых. Масса забавных моментов,  квестов и миниигр, веселые шалости и интересный сюжет делают эту игру прекрасным развлечением. Вам понравится изучать звездную карту неба, помогать собирать урожай, знакомиться с лесными обитателями и управляться по дому вместе с нашими героями. В конце игры Мамонтенка ждет сюрприз, а какой – вы узнаете сами!</p>
-            <p class="project__text">Игра разработана с юмором и станет чудесным отдыхом для всей семьи. Это своеобразный тест на смекалку и ловкость и просто замечательный способ отвлечься от повседневности и попасть в теплый и уютный мир с дружной семьей, неожиданными и смешными персонажами, летней деревней и милыми детскими проказами.</p>
-            <p class="project__text">Маленьким игрокам понравится играть с веселым и любознательным мамонтенком, придумывать вместе с Тимой и Варей новые забавы и помогать их родителям. Красочная графика делает игру запоминающейся, а качественная озвучка поможет погрузиться в атмосферу летнего леса. Мамонтенок, Варя и Тима ждут вас, своих новых друзей!</p>
-            <div class="project__gallery">
-              <h3 class="gallery__title">Галерея</h3>
-              <div class="gallery__items">
-                <div class="gallery__item">
-                  <a class="gallery__item-link" href="./images/gallery/mammoth_gallery-1.jpg">
-                    <img class="gallery__item-img" src="./images/gallery/mammoth_gallery-1.jpg" alt="">
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="contacts section-padding" id="contacts">
-        <div class="container">
-          <h2 class="contacts__title section-title">Контакты</h2>
-          <div class="contacts__inner">
-            <a class="contacts__email-link" href="linkedinlink">
-            <img src="./images/linkedin.svg" alt="">
-            </a>
-            <a class="contacts__email-link" href="mailto:info@waterfall.com.ua">
-            <img src="./images/email.svg" alt="">
-            </a>
-          </div>
-        </div>
-      </section>
+      <table border="0" width="100%" class="table" cellpadding="0" cellspacing="0">
+        <tr>
+          <td width="50%" class="left"></td>
+          <td>
+            <table border="0" width="100%" class="table" cellpadding="0" cellspacing="0">
+              <tr class="top_section" valign="top">
+                <td><a href="./index.html#projects"><img src="./images/mammoth/logo_English.jpg" alt="" border="0"></a></td>
+                <td><img src="./images/mammoth/logo2_English.jpg" alt="" border="0"></td>
+              </tr>
+              <tr>
+                <!-- left --><td class="left_td" valign="top">
+                  <table border="0" width="222" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td valign="top" align="center"><a href="./project_mammoth-gallery.html" title="Галерея"><img src="./images/mammoth/galerey_English.gif" alt="Галерея" border="0"></a></td>
+                    </tr>
+              <tr>
+                  <td align="center" style="vertical-align:top;">
+          <!-- img --><table border="0" width="207" cellpadding="0" cellspacing="0">
+          <tr>
+            <td colspan="3"><img class="gallery_img" src="./images/mammoth/left2.jpg" alt="Image-2" width="207" height="37" border="0"></td>
+          </tr>
+          <tr>
+            <td width="9" class="img_left"></td>
+            <td><img src="./images/mammoth/mammoth_gallery-1.jpg"  onClick="showImage('./images/mammoth/mammoth_gallery-1.jpg',1024,768); return false;" style="cursor:pointer;" alt="Image-1" scalable="180px" border="0"></td>
+            <td width="18" class="img_right" valign="bottom" align="right"><img src="./images/mammoth/img_right.gif" alt="Image-2" width="9" height="27" border="0"></td>
+          </tr>
+          <tr>
+            <td colspan="3" class="img_bot"><a href="#" onClick="showImage('./images/mammoth/mammoth_gallery-2.jpg',1024,768); return false;"></a></td>
+          </tr>
+          </table><!-- end_img -->
+          <br>
+         
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+          <!-- center --><td class="right_td" valign="top">
+          
+                  <a class="buy_button" target="new" href="http://www.turbogames.ru/shop_game.php?game_id=6823" title="">
+                        <img src="./images/mammoth/buy_Russian.gif" alt="" height="30" style="margin-left:38px;" border="0">
+                        </a>
+                        
+                  <table border="0" class="table-text" width="521" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td class="text" valign="top">
+                      <div>«Мамонтенок» - новая развлекательная интерактивная история от компании Waterfall. На этот раз маленьким игрокам предстоит познакомиться с необычным персонажем -  мамонтенком, и его друзьями. Тима и Варя проводят лето с родителями в деревне. Им невероятно повезло: в пещере, куда они залезли без спросу, они находят глыбу льда с настоящим мамонтом, замороженным внутри! Непоседливые ребята, конечно, придумали, как эту глыбу растопить – и случилось настоящее чудо: мамонтенок оказался живой! Еще и очень умный и понятливый)) Теперь у детей появился новый друг и помощник, с которым можно проказничать вволю, играть и веселиться.</div>
+                      <br>
+                      <div>Эта интерактивная игра рассчитана на детскую аудиторию, но увлечь она может и взрослых. Масса забавных моментов,  квестов и миниигр, веселые шалости и интересный сюжет делают эту игру прекрасным развлечением. Вам понравится изучать звездную карту неба, помогать собирать урожай, знакомиться с лесными обитателями и управляться по дому вместе с нашими героями. В конце игры Мамонтенка ждет сюрприз, а какой – вы узнаете сами!</div>
+                      <br>
+                      <div>Игра разработана с юмором и станет чудесным отдыхом для всей семьи. Это своеобразный тест на смекалку и ловкость и просто замечательный способ отвлечься от повседневности и попасть в теплый и уютный мир с дружной семьей, неожиданными и смешными персонажами, летней деревней и милыми детскими проказами.</div>
+                      <br>
+                      <div>Маленьким игрокам понравится играть с веселым и любознательным мамонтенком, придумывать вместе с Тимой и Варей новые забавы и помогать их родителям. Красочная графика делает игру запоминающейся, а качественная озвучка поможет погрузиться в атмосферу летнего леса. Мамонтенок, Варя и Тима ждут вас, своих новых друзей!</div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><img src="./images/mammoth/cen_bot.gif" alt="" width="518" height="91" border="0"></td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+        <tr valign="bottom">
+                <td><img src="./images/mammoth/bottom.jpg" alt="" width="222" height="215" border="0"></td>
+                <td><a href="/"><img src="./images/mammoth/bottom2.jpg" alt="" width="527" height="215" border="0"></a></td>
+              </tr>
+            </table>
+          </td>
+          <td width="50%" class="right"></td>
+        </tr>
+      </table>
     </main>
     <footer class="footer">
       <div class="container">

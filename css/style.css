@@ -181,7 +181,7 @@ button {
     width: 80px;
 }
 .video_preview{
-    opacity: 0;
+    display: none;
 }
 
 .section-padding{
